@@ -1,0 +1,40 @@
+.popup_back{
+  position: absolute;
+  width:100vw;
+  height:100vh;
+  top:0;
+  left:0;
+  background-color: rgba(0,0,0,0.7);
+}
+.popup{
+  width: 50%;
+  height: 70%;
+  background-color: aliceblue;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.cross{
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: absolute;
+  right: 8px;
+  background-color: cadetblue;
+  border-radius: 50%;
+  width: 5%;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: center;
+  padding: 0px 1px 8px 0px;
+  cursor:pointer
+}
+.show_image{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
